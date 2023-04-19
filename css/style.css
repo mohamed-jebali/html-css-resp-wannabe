@@ -131,20 +131,29 @@ img {
  /* Tablet dai 768px in giù */
 
  @media screen and (max-width: 780px) {
-    html{
-        overflow-x: hidden;
+    .row{
+        width: 100vw;
+        padding: 0 2.2rem;
     }
-    main{
-        height: 100vh;
+    h2{
+        width: 100vw;
+    }
+ }
+ /* Mobile: dai 480px  */
+
+ @media screen and (max-width: 480px) {
+    html{
+        /* overflow-x: hidden; */
     }
     .row{
         width: 100vw;
         height: 100%;
-        padding: 0 2rem;
-        /* background-color: aquamarine; */
+        background-color: aquamarine;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
     }
     .container h2{
-        text-align: center;
     }
  }
- /* Mobile: dai 480px  */
