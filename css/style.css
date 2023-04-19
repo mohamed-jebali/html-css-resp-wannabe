@@ -127,3 +127,24 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+ /* Tablet dai 768px in giù */
+
+ @media screen and (max-width: 780px) {
+    html{
+        overflow-x: hidden;
+    }
+    main{
+        height: 100vh;
+    }
+    .row{
+        width: 100vw;
+        height: 100%;
+        padding: 0 2rem;
+        /* background-color: aquamarine; */
+    }
+    .container h2{
+        text-align: center;
+    }
+ }
+ /* Mobile: dai 480px  */
