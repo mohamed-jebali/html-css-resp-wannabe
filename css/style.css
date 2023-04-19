@@ -139,21 +139,23 @@ img {
         width: 100vw;
     }
  }
- /* Mobile: dai 480px  */
+ /* Mobile: dai 480px in giù  */
 
  @media screen and (max-width: 480px) {
-    html{
-        /* overflow-x: hidden; */
-    }
     .row{
-        width: 100vw;
-        height: 100%;
-        background-color: aquamarine;
-    }
-    .container{
         display: flex;
         flex-direction: column;
+        align-items: center;
+        gap: 5rem;
+      }
+    
+    div.row > .col{
+          width: 90vw;
+      }
+    div.card{
+        padding: 0 1rem;
+      }
+    div.container>h2{
+        padding-right: 2.5rem;
+      }
     }
-    .container h2{
-    }
- }
